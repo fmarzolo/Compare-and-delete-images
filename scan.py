@@ -6,7 +6,7 @@ import time
 
 parser = argparse.ArgumentParser(description="Compare and optionally delete similar images",usage='This Python program allows to compare a huge number of images using their hash to evaluate '
     +'their similarity. You can tell the program to compare several hash size to evaluate the result prior to delete the images. '+
-    'Use hashlist parameter in the form 6,8,20 or more values to get a count of how many images would be left using different hashes. Author: francesco [at]marzolo.com')
+    'Use hashlist parameter in the form 6,8,20 or more values to get a count of how many images would be left using different hashes.')
 parser.add_argument("imagePath",help="Define the source path for images to compare/delete")
 parser.add_argument("hashlist",help="List of preferred hash size to evaluate image difference (6,8,20,50) NO SPACES ALLOWED")
 parser.add_argument("--removesimilarimages",action="store_true",help="With this parameter the program will delete identical images using the first hash size you specified")
