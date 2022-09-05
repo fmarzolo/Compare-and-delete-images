@@ -3,7 +3,7 @@ This Python code allows to compare images, compute difference using arbitrary mu
 Was written to keep only interesting ones doing some Timelapse video.
 
 Launch with: 
-python imagepath hashlist --removesimilarimages<p>
+python imagepath hashlist --removesimilarimages</b>
 imagepath=path and pattern of the file to scan, alphabetically sortable (img-00001.jpg, img-00002.jpg, ...) as in F:/photos/img-*.jpg
 hashlist=List of preferred hash size to evaluate image difference (6,8,20,50) NO SPACES ALLOWED  (integer comma separated)
 --removesimilarimages=optional parameter to remove (rename) images. With this parameter the program will delete similar images using the first hash size you specified
