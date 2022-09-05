@@ -1,6 +1,6 @@
 # Compare-and-delete-images
 This Python code allows to compare images, compute difference using arbitrary multiple hash sizes, and keep only those with interesting difference. 
-Was written to keep only interesting ones doing some Timelapse video.<p>
+Was written to keep only interesting ones to create some Timelapse video.<p>
 
 Launch with: <p>
 python imagepath hashlist --removesimilarimages<p>
